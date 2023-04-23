@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(237, 225, 225);
+    width: 100%;
+    height: 100vh;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Card{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+.S1{
+    height: 250px;
+    width: 400px;
+    border-radius: 10px 10px 0 0 ;
+}
+.Text{
+        width: 100%;
+        margin-top: 20px;
+        /* background-color: aqua; */
+}
+h1{
+    font-size: 40px;
+    color: rgb(48, 46, 46);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.Footer{
+    border-top: 1px solid grey ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    /* background-color: chartreuse; */
+}
+.links{
+    width: 90%;
+    height: 90%;
+    /* background-color: khaki; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.Button{
+    height: 40px ;
+    width: 100px ;
+    border: 2px solid gray;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
